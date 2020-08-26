@@ -13,16 +13,16 @@ class MyApp extends StatelessWidget {
         backgroundColor: Colors.teal,
         body: SafeArea(
 //          child: Column(
-////            mainAxisSize: MainAxisSize.min,
-////            verticalDirection: VerticalDirection.up,
-////            verticalDirection: VerticalDirection.down(default),
-////            mainAxisAlignment: MainAxisAlignment.start(default),
-////            mainAxisAlignment: MainAxisAlignment.center,
-////            mainAxisAlignment: MainAxisAlignment.end,
-////            mainAxisAlignment: MainAxisAlignment.spaceEvenly,
-////            mainAxisAlignment: MainAxisAlignment.spaceBetween,
-////            crossAxisAlignment: CrossAxisAlignment.start(right alignment),
-////            crossAxisAlignment: CrossAxisAlignment.end,
+//            mainAxisSize: MainAxisSize.min,
+//            verticalDirection: VerticalDirection.up,
+//            verticalDirection: VerticalDirection.down, // (default)
+//            mainAxisAlignment: MainAxisAlignment.start, // (default)
+//            mainAxisAlignment: MainAxisAlignment.center,
+//            mainAxisAlignment: MainAxisAlignment.end,
+//            mainAxisAlignment: MainAxisAlignment.spaceEvenly,
+//            mainAxisAlignment: MainAxisAlignment.spaceBetween,
+//            crossAxisAlignment: CrossAxisAlignment.start, // (right alignment)
+//            crossAxisAlignment: CrossAxisAlignment.end,
 //            crossAxisAlignment: CrossAxisAlignment.stretch,
 //            children: <Widget>[
 //              Container(
@@ -46,13 +46,13 @@ class MyApp extends StatelessWidget {
           child: Row(
 //            mainAxisSize: MainAxisSize.min,
 //            verticalDirection: VerticalDirection.up,
-//            verticalDirection: VerticalDirection.down(default),
-//            mainAxisAlignment: MainAxisAlignment.start(default),
+//            verticalDirection: VerticalDirection.down, // (default)
+//            mainAxisAlignment: MainAxisAlignment.start // (default)
 //            mainAxisAlignment: MainAxisAlignment.center,
 //            mainAxisAlignment: MainAxisAlignment.end,
 //            mainAxisAlignment: MainAxisAlignment.spaceEvenly,
 //            mainAxisAlignment: MainAxisAlignment.spaceBetween,
-//            crossAxisAlignment: CrossAxisAlignment.start(right alignment),
+//            crossAxisAlignment: CrossAxisAlignment.start, // (right alignment)
 //            crossAxisAlignment: CrossAxisAlignment.end,
             crossAxisAlignment: CrossAxisAlignment.stretch,
             children: <Widget>[
