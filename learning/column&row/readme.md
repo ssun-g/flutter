@@ -34,10 +34,10 @@ children: <Widget>[
 <img src="https://user-images.githubusercontent.com/33628588/100634373-93916600-3372-11eb-8a7e-d8d87ce3da29.png">  
  
 * __MainAxisAlignment.spaceEvenly__      
-<img src="https://user-images.githubusercontent.com/33628588/100640777-2681ce80-337a-11eb-9d11-c595a02f3c60.png">
+<img src="https://user-images.githubusercontent.com/33628588/100641162-72347800-337a-11eb-861c-9ef86351d621.png">
 
 * __MainAxisAlignment.spaceBetween__      
-<img src="https://user-images.githubusercontent.com/33628588/100640861-36011780-337a-11eb-9b41-225745cce987.png">
+<img src="https://user-images.githubusercontent.com/33628588/100641162-72347800-337a-11eb-861c-9ef86351d621.png">
 <hr/>
 
 
