@@ -42,7 +42,7 @@ children: <Widget>[
 
 * __VerticalDirection.up__   
 <img src="https://user-images.githubusercontent.com/33628588/100633541-8f187d80-3371-11eb-9989-3c7319a6edf8.png">   
-* * *
+<hr/>
 ## crossAxisAlignment
 * __Container__   
 ```
