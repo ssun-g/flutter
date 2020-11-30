@@ -25,7 +25,7 @@ Container(
 * __MainAxisAlignment.start (default)__      
 <img src="https://user-images.githubusercontent.com/33628588/100632280-ffbe9a80-336f-11eb-84a5-959e347733f0.png">
 * * *   
-* __MainAxisAlignment.center__   
+__MainAxisAlignment.center__   
 <img src="https://user-images.githubusercontent.com/33628588/100634149-457c6280-3372-11eb-8dfc-6a461937ef9e.png">
 * * *   
 * __MainAxisAlignment.end__   
