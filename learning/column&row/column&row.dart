@@ -14,8 +14,8 @@ class MyApp extends StatelessWidget {
         body: SafeArea(
 //          child: Column(
 //            mainAxisSize: MainAxisSize.min,
-//            verticalDirection: VerticalDirection.up,
 //            verticalDirection: VerticalDirection.down, // default
+//            verticalDirection: VerticalDirection.up,
 //            mainAxisAlignment: MainAxisAlignment.start, // default
 //            mainAxisAlignment: MainAxisAlignment.center,
 //            mainAxisAlignment: MainAxisAlignment.end,
@@ -46,9 +46,9 @@ class MyApp extends StatelessWidget {
 //          ),
           child: Row(
 //            mainAxisSize: MainAxisSize.min,
-//            verticalDirection: VerticalDirection.up,
-//            verticalDirection: VerticalDirection.down, // (default)
-//            mainAxisAlignment: MainAxisAlignment.start // (default)
+//            textDirection: TextDirection.ltr, // default
+//            textDirection: TextDirection.rtl,
+//            mainAxisAlignment: MainAxisAlignment.start // default
 //            mainAxisAlignment: MainAxisAlignment.center,
 //            mainAxisAlignment: MainAxisAlignment.end,
 //            mainAxisAlignment: MainAxisAlignment.spaceEvenly,
