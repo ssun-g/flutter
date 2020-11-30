@@ -35,7 +35,7 @@ children: <Widget>[
    
 * __MainAxisSize.min__ (해당 효과는 아래부터 계속 적용)
 <img src="https://user-images.githubusercontent.com/33628588/100633177-174a5300-3371-11eb-9fab-b3389f86f0bd.png">   
-* * *
+<hr/>
 ## verticalDirection
 * __VerticalDirection.down (default)__   
 <img src="https://user-images.githubusercontent.com/33628588/100633177-174a5300-3371-11eb-9fab-b3389f86f0bd.png">   
@@ -58,7 +58,6 @@ children: <Widget>[
               ),
               Container(
                 height: 100.0,
-                width : 200.0,
                 color: Colors.blue,
                 child: Text('container 2'),
               ),
