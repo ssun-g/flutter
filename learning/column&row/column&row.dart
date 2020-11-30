@@ -34,6 +34,7 @@ class MyApp extends StatelessWidget {
 //              SizedBox(height: 20.0,),
 //              Container(
 //                height: 100.0,
+//                width: 200.0,
 //                color: Colors.blue,
 //                child: Text('container 2'),
 //              ),
@@ -57,18 +58,23 @@ class MyApp extends StatelessWidget {
 //            crossAxisAlignment: CrossAxisAlignment.start, // left alignment
 //            crossAxisAlignment: CrossAxisAlignment.end, // right alignment
 //            crossAxisAlignment: CrossAxisAlignment.stretch,
-            children: <Widget>[
+              children: <Widget>[
               Container(
-                width: 100.0,
+                height: 100.0,
                 color: Colors.white,
                 child: Text('container 1'),
               ),
-              SizedBox(width: 20.0,),
+              SizedBox(
+                width: 50.0,
+                child: Text('sb'),
+              ),
               Container(
+                height: 200.0,
                 color: Colors.blue,
                 child: Text('container 2'),
               ),
               Container(
+                height: 100.0,
                 color: Colors.red,
                 child: Text('container 3'),
               ),
