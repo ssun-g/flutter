@@ -35,6 +35,7 @@ children: <Widget>[
    
 * __MainAxisSize.min__ (해당 효과는 아래부터 계속 적용)
 <img src="https://user-images.githubusercontent.com/33628588/100633177-174a5300-3371-11eb-9fab-b3389f86f0bd.png">   
+<hr/>
 
 
 ## verticalDirection
@@ -43,6 +44,7 @@ children: <Widget>[
 
 * __VerticalDirection.up__   
 <img src="https://user-images.githubusercontent.com/33628588/100633541-8f187d80-3371-11eb-9989-3c7319a6edf8.png">   
+<hr/>
 
 
 ## crossAxisAlignment   
