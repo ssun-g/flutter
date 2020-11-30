@@ -160,6 +160,18 @@ mainAxisAlignment와 동일
 <hr/>
 
 
+## textDirection
+* __Container__      
+mainAxisAlignment와 동일
+
+* __TextDirection.ltr (default)__      
+<img src="https://user-images.githubusercontent.com/33628588/100639902-1a494180-3379-11eb-8595-233ddcab281b.png">   
+
+* __TextDirection.rtl__      
+<img src="https://user-images.githubusercontent.com/33628588/100644197-592dc600-337e-11eb-8230-97f5c1642895.png">   
+<hr/>
+
+
 ## crossAxisAlignment
 * __Container__        
 ```
