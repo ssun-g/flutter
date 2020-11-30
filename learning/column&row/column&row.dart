@@ -15,14 +15,15 @@ class MyApp extends StatelessWidget {
 //          child: Column(
 //            mainAxisSize: MainAxisSize.min,
 //            verticalDirection: VerticalDirection.up,
-//            verticalDirection: VerticalDirection.down, // (default)
-//            mainAxisAlignment: MainAxisAlignment.start, // (default)
+//            verticalDirection: VerticalDirection.down, // default
+//            mainAxisAlignment: MainAxisAlignment.start, // default
 //            mainAxisAlignment: MainAxisAlignment.center,
 //            mainAxisAlignment: MainAxisAlignment.end,
 //            mainAxisAlignment: MainAxisAlignment.spaceEvenly,
 //            mainAxisAlignment: MainAxisAlignment.spaceBetween,
-//            crossAxisAlignment: CrossAxisAlignment.start, // (right alignment)
-//            crossAxisAlignment: CrossAxisAlignment.end,
+//            crossAxisAlignment: CrossAxisAlignment.center, // default
+//            crossAxisAlignment: CrossAxisAlignment.start, // left alignment
+//            crossAxisAlignment: CrossAxisAlignment.end, // right alignment
 //            crossAxisAlignment: CrossAxisAlignment.stretch,
 //            children: <Widget>[
 //              Container(
@@ -52,9 +53,10 @@ class MyApp extends StatelessWidget {
 //            mainAxisAlignment: MainAxisAlignment.end,
 //            mainAxisAlignment: MainAxisAlignment.spaceEvenly,
 //            mainAxisAlignment: MainAxisAlignment.spaceBetween,
-//            crossAxisAlignment: CrossAxisAlignment.start, // (right alignment)
-//            crossAxisAlignment: CrossAxisAlignment.end,
-            crossAxisAlignment: CrossAxisAlignment.stretch,
+//            crossAxisAlignment: CrossAxisAlignment.center, // default
+//            crossAxisAlignment: CrossAxisAlignment.start, // left alignment
+//            crossAxisAlignment: CrossAxisAlignment.end, // right alignment
+//            crossAxisAlignment: CrossAxisAlignment.stretch,
             children: <Widget>[
               Container(
                 width: 100.0,
