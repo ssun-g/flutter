@@ -31,10 +31,10 @@ Container(
 * __MainAxisAlignment.end__   
 <img src="https://user-images.githubusercontent.com/33628588/100634373-93916600-3372-11eb-8a7e-d8d87ce3da29.png">   
    
-* __MainAxisSize.min__   * 해당 효과는 아래부터 계속 적용
+* __MainAxisSize.min__   (해당 효과는 아래부터 계속 적용)
 <img src="https://user-images.githubusercontent.com/33628588/100633177-174a5300-3371-11eb-9fab-b3389f86f0bd.png">   
    
-* __verticalDirection: VerticalDirection.down (defalut 값)__   
+* __verticalDirection: VerticalDirection.down (defalut)__   
 <img src="https://user-images.githubusercontent.com/33628588/100633541-8f187d80-3371-11eb-9989-3c7319a6edf8.png">   
 
 * __verticalDirection: VerticalDirection.up__   
