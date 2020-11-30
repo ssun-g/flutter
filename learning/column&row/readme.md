@@ -1,6 +1,6 @@
 # column
-## MainAxisAlignment
-* __Container__   
+## mainAxisAlignment
+* __Container__     
 ```
 children: <Widget>[
               Container(
@@ -32,15 +32,24 @@ children: <Widget>[
    
 * __MainAxisAlignment.end__   
 <img src="https://user-images.githubusercontent.com/33628588/100634373-93916600-3372-11eb-8a7e-d8d87ce3da29.png">   
-   
-* __MainAxisSize.min__ (해당 효과는 아래부터 계속 적용)
+<hr/>
+
+
+## mainAxisSize
+* __Container__
+mainAxisAlignment와 동일
+
+* __MainAxisSize.max (default)__      
+<img src="https://user-images.githubusercontent.com/33628588/100632280-ffbe9a80-336f-11eb-84a5-959e347733f0.png">   
+
+* __MainAxisSize.min (해당 효과는 아래부터 계속 적용)__      
 <img src="https://user-images.githubusercontent.com/33628588/100633177-174a5300-3371-11eb-9fab-b3389f86f0bd.png">   
 <hr/>
 
 
 ## verticalDirection
 * __Container__     
-MainAxisAlignment와 동일
+mainAxisAlignment와 동일
 
 * __VerticalDirection.down (default)__   
 <img src="https://user-images.githubusercontent.com/33628588/100633177-174a5300-3371-11eb-9fab-b3389f86f0bd.png">   
@@ -88,5 +97,52 @@ children: <Widget>[
 * __CrossAxisAlignment.stretch__   
 <img src="https://user-images.githubusercontent.com/33628588/100635805-50d08d80-3374-11eb-904a-9f6acd36bc32.png">  
 
+# Row
+## mainAxisAlignment
+* __Container__      
+```
+children: <Widget>[
+              Container(
+                height: 100.0,
+                color: Colors.white,
+                child: Text('container 1'),
+              ),
+              SizedBox(
+                height: 20.0,
+                child: Text('sized_box'),
+              ),
+              Container(
+                height: 100.0,
+                color: Colors.blue,
+                child: Text('container 2'),
+              ),
+              Container(
+                height: 100.0,
+                color: Colors.red,
+                child: Text('container 3'),
+              ),
+            ]
+```
+* __MainAxisAlignment.start (default)__     
+<img src="https://user-images.githubusercontent.com/33628588/100638549-80cd6000-3377-11eb-8185-f50d1f35dcae.png">
 
- 
+* __MainAxisAlignment.center__     
+<img src="https://user-images.githubusercontent.com/33628588/100639194-36001800-3378-11eb-8245-1418de007fd8.png">
+
+* __MainAxisAlignment.end__
+<img src="https://user-images.githubusercontent.com/33628588/100639263-4a441500-3378-11eb-9d6e-3e8613839616.png">
+<hr/>
+
+
+## mainAxisSize
+* __Container__
+mainAxisAlignment와 동일
+
+* __MainAxisSize.max (default)__      
+<img src="https://user-images.githubusercontent.com/33628588/100638466-68f5dc00-3377-11eb-81ce-6f0e9bef460e.png">   
+
+* __MainAxisSize.min (해당 효과는 아래부터 계속 적용)__      
+<img src="https://user-images.githubusercontent.com/33628588/100638549-80cd6000-3377-11eb-8185-f50d1f35dcae.png">   
+<hr/>
+
+
